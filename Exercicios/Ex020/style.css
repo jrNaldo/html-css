@@ -1,0 +1,7 @@
+@charset "UTF-8";
+div:hover >p{
+    display: block;
+    color: white;
+    background-color: red;
+    width: 300px;
+}
