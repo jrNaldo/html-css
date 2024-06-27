@@ -1,8 +1,4 @@
 # html-css
- curso de html e css do CURSOEMVIDEO
+ Curso de Html e Css do CURSOEMVIDEO
 
 Estou aprendendo a criar sites e agora gerenciando meu repositorio
-<<<<<<< HEAD
-
-=======
->>>>>>> 595cfbb164ac43607c65baa133d77ee1827b0256
