@@ -10,11 +10,14 @@
         }
         table{
             width: 400px;
-            border-collapse: collapse; {<!--Essa tag de css junta os <td>-->}
+            height: 400px;
+            border-collapse: collapse;
         }
         td{
             border: 1px solid black;
             padding: 10px;
+            vertical-align: middle;
+            text-align: center;
         }
         .linha{
             background-color: gray;
@@ -22,9 +25,12 @@
         .dado{
             background-color: black;
             color: white;
+            text-align: end;
+            vertical-align: bottom;
         }
         .dado2{
             background-color: yellow;
+            vertical-align: top;
         }
     </style>
 </head>
@@ -42,7 +48,8 @@
             <td>C2</td>
         </tr>
         <tr>
-            <td>A3</td>
+            <td>A3
+            </td>
             <td>B3</td>
             <td>C3</td>
         </tr>
