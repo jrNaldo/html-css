@@ -16,6 +16,7 @@
             width: 500px;
             border-collapse: collapse;
             margin: auto;
+            position: relative;
         }
         caption{
             font-size: 1.5em;
@@ -30,9 +31,17 @@
         td{
             text-align: center;      
         }
+        thead >tr > th{
+            position: sticky;
+            top: -1px;
+            background-color:rgb(128, 128, 128);
+        }
         thead, tfoot{
             background-color: gray;
             color: white;
+        }
+        tbody>tr:nth-child(2n){
+            background-color: rgb(192, 192, 192);
         }
         .num{
             text-align: right;
