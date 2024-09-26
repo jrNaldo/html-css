@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="" method="post" autocomplete="on">
+        <p><label for="inome">Usuario: </label> <input type="text" name="nome" id="inome" required minlength="8" maxlength="30" autocomplete="username"></p>
+
+        <p><label for="isenha">Senha: </label> <input type="password" minlength="8" maxlength="15" autocomplete="current-password" required></p>
+
+        <p><label for="icor"> Cor: </label><input type="color" name="cor" id="icor"></p>
+
+        <p><label for="inumero">Media: </label><input type="number" name="numero" id="inumero" placeholder="0 a 10" min="0" max="10" step="0.1"required></p>
+
+        <p><label for="idata">Data: </label><input type="date" name="data" id="idata" value="2024-09-26"></p>
+
+        <p><label for="itime">Tempo: </label><input type="time" name="time" id="itime"></p>
+
+        <p><label for="imes">Mês: </label><input type="month" name="mes" id="imes" value="2024-09"></p>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
