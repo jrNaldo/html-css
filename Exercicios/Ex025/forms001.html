@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Meu primeiro formulario</h1>
-   <form  autocomplete="off">
+   <form  autocomplete="off" method="post">
     <p><label for="inome">Nome:</label> 
         <input type="text" name="Nome" id="inome"> 
     </p>
@@ -15,8 +15,10 @@
     <p><label for="isobrenome">Sobrenome: </label>
         <input type="text" name="nome" id="isobrenome">
     </p>
-    <p><label for="isenha">Senha:</label>
+    <p><label for="isenha">Senha: </label>
     <input type="password" name="senha" id="isenha"></p>
+    <p><label for="idata">Data: </label><input type="date" name="data" id="idata"></p>
+    
     <p><input type="submit" value="Enviar"></p>
    </form>
 </body>
