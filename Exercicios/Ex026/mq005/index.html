@@ -6,8 +6,9 @@
     <title>Menu responsivo</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-querie.css">
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>Meu Site</h1>
         <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
@@ -26,7 +27,7 @@
             <h2>Testando Media Queries</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo veritatis nesciunt voluptates. Ullam voluptatem ipsam culpa officia exercitationem nobis ipsum obcaecati nemo distinctio asperiores laboriosam aspernatur, voluptates vero. Inventore, harum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident qui quidem itaque optio. Illo molestias ipsum sed temporibus nisi quos quia rerum adipisci ab, doloribus sequi quod quaerat repellat consequatur!
             Ducimus veritatis dignissimos error minus ipsam totam quod tenetur eaque possimus perspiciatis molestiae aliquid accusantium vel nam quae incidunt, dolor quasi est? Asperiores rem incidunt officia laborum ipsum, quis laboriosam.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo veritatis nesciunt voluptates. Ullam voluptatem ipsam culpa officia exercitationem nobis ipsum obcaecati nemo distinctio asperiores laboriosam aspernatur, voluptates vero. Inventore, s</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo veritatis nesciunt voluptates. Ullam voluptatem ipsam culpa officia exercitationem nobis ipsum obcaecati nemo distinctio asperiores laboriosam aspernatur, voluptates vero. Inventore,  Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti illum esse iusto autem consequatur quos in incidunt eos dolorem laudantium similique officia sequi, laborum et dolores nam blanditiis illo iure. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod quo perferendis magni quas maxime qui ipsa deserunt dolorum rerum hic. Recusandae quis aliquam modi a quidem porro ullam fugit in?</p>
            
           
         
@@ -38,6 +39,13 @@
                 itens.style.display = 'none'
             }else{
                 itens.style.display ='block'
+            }
+        }
+        function mudouTamanho(){
+            if(window.innerWidth >=768){
+                itens.style.display ='block'
+            }else{
+                itens.style.display ='none'
             }
         }
     </script>
